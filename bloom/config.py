@@ -204,6 +204,8 @@ DEFAULT_TEMPLATE = {
         'git-bloom-generate -y rosdebian --prefix release/:{ros_distro}'
         ' :{ros_distro} -i :{release_inc} --os-name debian --os-not-required',
         'git-bloom-generate -y rosrpm --prefix release/:{ros_distro}'
+        ' :{ros_distro} -i :{release_inc}',
+        'git-bloom-generate -y rosarch --prefix release/:{ros_distro}'
         ' :{ros_distro} -i :{release_inc}'
     ]
 }
